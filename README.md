@@ -1,4 +1,6 @@
-# API Project: Timestamp Microservice
+# This is a fork of [lukePeavey's timestamp-microservice](https://github.com/lukePeavey/timestamp-microservice) stale repository.
+
+## API Project: Timestamp Microservice
 
 This project is part of the [freeCodeCamp](http://freecodecamp.org)  APIs and Microservices certification.
 
