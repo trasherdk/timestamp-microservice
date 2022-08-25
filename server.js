@@ -45,9 +45,13 @@ app.get('/:date', function (request, response) {
   }
   const unix = date.getTime() / 1000
   // Sends the JSON response
+  const iso = date.toISOString()
+  const db = [iso.split("T")[0], iso.split("T")[1].split(".")[0]].join(" ")
+
   response.json({
-    iso: date.toISOString(),
-    unix: unix || null,
+    iso,
+    db,
+    unix: Math.floor(unix) || null,
     natural: natural === 'Invalid Date' ? null : natural
   })
 })
