@@ -12,7 +12,7 @@
     "ejs": "^2.5.7 "
   },
   "engines": {
-    "node": "8.x"
+    "node": ">= 8.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/welcome-project"
