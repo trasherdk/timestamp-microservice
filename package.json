@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^4.15.3",
-    "ejs": "^2.5.7 "
+    "ejs": "^3.1.7"
   },
   "engines": {
     "node": ">= 8.x"
